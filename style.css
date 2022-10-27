@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    outline: 0;
+    list-style: none;
+
+}
+
+html{
+    overflow-x: hidden;
+    background: hsl(0, 0%, 98%);
+}
+
+.btn{
+    background: hsl(0, 0%, 8%);
+    padding: 13px 30px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 20px;
+    transition: .3s linear;
+    display: inline-block;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.header .container{
+    padding: 15px 4%;
+}
+
+.header .container .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header .container .navbar .nav-left{
+    display: flex;
+    align-items: center;
+}
+
+.header .container .logo img{
+    width: 110px;
+    padding-top: 8px;
+}
+
+.header input{
+    display: none;
+}
+
+
+.header label{
+    font-size: 25px;
+    border: 1px solid rgba(0,0,0,.5);
+    padding: 5px 10px;
+    border-radius: 10px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.header .nav-area{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* .header .navbar ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+} */
+
+.header .navbar .nav-items a{
+    margin-left: 25px;
+    font-size: 20px;
+    color: hsl(0, 0%, 8%);
+}
+
+.header .nav-right a{
+    font-size: 18px;
+    margin-right: 10px;
+    border: 1px solid black;
+    padding: 7px 20px;
+    border-radius: 7px;
+}
+
+/* header ends************** */
+
+/* main area start************* */
+
+.container{
+    padding: 0 10%;
+}
+
+.main-area {
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    flex-wrap: wrap;
+}
+
+.main-area .content{
+    flex: 1 1 30rem;
+}
+
+.main-area .image{
+    flex: 1 1 30rem;
+}
+
+.main-area .content h2{
+    color: hsl(0, 0%, 8%);
+    font-size: 90px;
+    line-height: 90px;
+    margin-top: 200px;
+}
+
+.main-area .content p{
+    color: hsl(0, 0%, 41%);
+    margin: 55px 0;
+    width: 28rem;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.main-area .content .some-logo{
+    margin-top: 150px;
+}
+
+.main-area .content .some-logo img{
+    margin-right: 45px;
+    width: 110px;
+}
+
+
+
+
+.main-area .image img{
+    width: 100%;
+}
+
+
+
+
+/* main area ends************* */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */
